@@ -24,7 +24,7 @@ ENV PYTHONPATH=/app
 ENV FLASK_APP=src/server.py
 
 # 暴露端口
-EXPOSE 12930
+EXPOSE 8080
 
 # 启动命令
 CMD ["python", "src/server.py"]
